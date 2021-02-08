@@ -18,7 +18,7 @@ import com.hcl.model.Task;
 import com.hcl.service.TaskService;
 
 
-@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 public class TaskController {
 	
